@@ -14,7 +14,7 @@ Extra points for writing the testcases in Gherkin syntax (given/when/then).
 
 **Steps to run the solution:**
 
-1.Clone the Project
+1.Clone the Project (This can be cone under Code opetion and slecet SSH)
 
 2.Go to folder having name - Gridsingularitychallenge
 
