@@ -14,9 +14,11 @@ Extra points for writing the testcases in Gherkin syntax (given/when/then).
 
 **Steps to run the solution:**
 
-1.Clone the Project
+1.Clone the Project using Gitbash 
+$ git clone git@github.com:NidhiKiran/Gridsingularitychallenge.git
 
-2.Go to folder having name - Gridsingularitychallenge
+
+2.After successful Clonning open the folder having name - Gridsingularitychallenge
 
 3.Execute below command in Gitbash or cmd
 mvn clean verify
