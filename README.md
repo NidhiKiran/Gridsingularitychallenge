@@ -21,4 +21,9 @@ $ git clone git@github.com:NidhiKiran/Gridsingularitychallenge.git
 2.After successful Clonning open the folder having name - Gridsingularitychallenge
 
 3.Execute below command in Gitbash or cmd
+
 mvn clean verify
+
+4.Below is the path for Test report
+
+Full Report: /Gridsingularitychallenge/target/site/serenity/index.html
