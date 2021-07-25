@@ -14,6 +14,8 @@ Extra points for writing the testcases in Gherkin syntax (given/when/then).
 
 **Steps to run the solution:**
 1.Clone the Project
+
 2.Go to folder having name - Gridsingularitychallenge
+
 3.Execute below command in Gitbash or cmd
 mvn clean verify
