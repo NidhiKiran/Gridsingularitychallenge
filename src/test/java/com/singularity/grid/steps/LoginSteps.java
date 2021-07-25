@@ -22,11 +22,11 @@ public class LoginSteps {
     }
 
     @When("he tries to login to d3a.io using preexisting user")
-    public void heTriesToLoginToDAIo(Map<String, String> params) {
+    public void heTriesToLoginToDAIo(Map<String, String> params) throws InterruptedException {
         driver.findElement(By.id("email")).sendKeys(params.get("Email"));
         driver.findElement(By.id("password")).sendKeys(params.get("Password"));
         driver.findElement(By.cssSelector("span[class='button__label']")).click();
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS); //using implicit wait as assertion will be done in a separate step
+        Thread.sleep(2*1000); //using implicit wait as assertion will be done in a separate step
 
     }
 
